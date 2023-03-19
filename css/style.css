@@ -1,0 +1,103 @@
+/* 
+These are the steps I made for my solution to the FrontendMentor-Chellange "QR code component"
+Link to the challange: https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
+*/
+
+/* --- 01 - import fonts ---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* --- 02 - define variables for the colors ---*/
+
+:root {
+    ---site-background: #D6e2f0;
+    ---normal-text: #7B839E;
+    ---heading: #222D4F;
+}
+
+/* --- 03 - reset styles ---*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* --- 04 - site layout ---*/
+
+body {
+    height: 100vh;
+    height: 100svh;
+    min-width: 375px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    width: 85%;
+    max-width: 317px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 1.2em;
+}
+
+.card-title {
+    width: 88%;
+    margin-bottom: 1em;
+}
+
+.card-description {
+    width: 88%;
+    margin-bottom: 2em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+/* --- 05 - typography ---*/
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(---normal-text);
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(---heading);
+}
+
+/* --- 06 - style ---*/
+
+body {
+    background-color: var(---site-background);
+}
+
+.card {
+    border-radius: 19px;
+    background-color: white;
+}
+
+.card-image {
+    border-radius: 9px;
+}
+
+/* --- xx - finaly the most important rule ;) ---*/
+
+.myname {
+    font-size: 1.2em;
+    font-weight: bold;
+}
