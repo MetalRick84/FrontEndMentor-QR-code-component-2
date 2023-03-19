@@ -80,7 +80,7 @@ html {
     color: var(---heading);
 }
 
-/* --- 06 - style ---*/
+/* --- 06 - styling ---*/
 
 body {
     background-color: var(---site-background);
@@ -89,6 +89,7 @@ body {
 .card {
     border-radius: 19px;
     background-color: white;
+    box-shadow: 5px 5px 40px var(---normal-text);
 }
 
 .card-image {
