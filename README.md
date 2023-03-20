@@ -24,7 +24,8 @@ for practice purposes.
 
 ### Links
 
-- Solution URL: [https://metalrick84.github.io/FrontEndMentor-QR-code-component/](https://metalrick84.github.io/FrontEndMentor-QR-code-component/)
+- Solution URL: [https://metalrick84.github.io/FrontEndMentor-QR-code-component/](https://www.frontendmentor.io/solutions/solution-2-wEBN5SWY2o)
+- 
 
 ## My process
 
@@ -38,7 +39,7 @@ for practice purposes.
 
 ### What I learned
 
-How to make a Site "Fullscreen" (fills up the whole viewport) for mobile browsers by using the svh-unit. I got the Idea from a [video](https://www.youtube.com/watch?v=veEqYQlfNx8&list=PLOpMjItTc9kUXHgr1i0ifbByr3yV_DxTt&index=3) from Kevin Powell
+You can define variables with CSS.
 
 ### Useful resources
 
